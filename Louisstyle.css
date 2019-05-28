@@ -34,3 +34,23 @@ h2 {
 	color: white;
 	text-transform: capitalize;
 }
+<<<<<<< HEAD:Louisstyle.css
+=======
+
+.center-text {
+	background-color: white;
+	border-radius: 20px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding: 30px 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h1 {
+	padding-bottom: 20px;
+}
+>>>>>>> f9d757a8c2cac1ad5453ff4e93b007cf980e403a:style.css
