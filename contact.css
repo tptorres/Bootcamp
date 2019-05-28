@@ -1,0 +1,20 @@
+#navbar {
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #482712;
+}
+
+#navbar * {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 33%;
+}
+
+ul {
+  
+}
