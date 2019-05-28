@@ -20,6 +20,14 @@ body {
 	align-items: center;
 	height: 100%;
 	width: 33%;
+
+}
+
+section{
+	height: 500px;
+
+	width: 600px;
+	float: left;
 }
 
 h2 {
