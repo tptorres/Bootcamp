@@ -17,20 +17,24 @@
 
 .contact-form {
   background-color: white;
-  border-radius: 20px;
-  margin: 50px 25%;
+  border-radius: 20px;  
+  margin: 0 auto; 
   padding: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 30px 40px;
-  
 }
 
-.f_name, .l_name {
+.Inputs {
+  display: flex;
+  flex-direction: column;
+} 
+
+label {
   display: flex;
   flex-direction: row;
-  padding-right: 10px;
+  justify-content: flex-end; 
 }
 
 body {
