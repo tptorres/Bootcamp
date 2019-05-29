@@ -15,6 +15,27 @@
 	width: 33%;
 }
 
-ul {
+.contact-form {
+  background-color: white;
+  border-radius: 20px;
+  margin: 50px 25%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 40px;
   
+}
+
+.f_name, .l_name {
+  display: flex;
+  flex-direction: row;
+  padding-right: 10px;
+}
+
+body {
+	background-image: url("https://blog.humanesociety.org/wp-content/uploads/2018/10/HORSES-WILD-ISTOCK-836461312_438049-1220x813.jpg");
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
