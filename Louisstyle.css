@@ -25,10 +25,11 @@ body {
 
 section{
 	height: 500px;
-
 	width: 600px;
 	float: left;
+	margin: 0 auto;
 }
+
 
 h2 {
 	color: white;
@@ -81,6 +82,15 @@ h2 {
 	text-transform: capitalize;
 }
 
+a {
+	text-decoration: none !important;
+}
+
+a:hover {
+	background-color: orange;
+	transition: 0.5s;
+}
+
 .center-text {
 	background-color: white;
 	border-radius: 20px;
@@ -97,12 +107,14 @@ h2 {
 h1 {
 	padding-bottom: 20px;
 }
+
+/* form */
 .row {
 	display: -ms-flexbox; /* IE10 */
 	display: flex;
 	-ms-flex-wrap: wrap; /* IE10 */
 	flex-wrap: wrap;
-	margin: 0 -16px;
+	margin: 0 auto;
   }
   
   .col-25 {
@@ -131,6 +143,7 @@ h1 {
 	padding: 5px 20px 15px 20px;
 	border: 1px solid lightgrey;
 	border-radius: 3px;
+  	margin: auto;
   }
   
   input[type=text] {
@@ -182,3 +195,22 @@ h1 {
 	  margin-bottom: 20px;
 	}
   }
+#bottom-background
+{
+	background-size: cover; 
+}
+
+#center
+{
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+section
+{
+	margin: auto;
+}
+.atext{
+ text-align: center;
+	margin: auto;
+}
