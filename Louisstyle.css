@@ -11,7 +11,7 @@ body {
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
-	background-color: #482712;
+	background-color: #191919;
 }
 
 #navbar * {
@@ -20,7 +20,6 @@ body {
 	align-items: center;
 	height: 100%;
 	width: 33%;
-
 }
 
 section{
@@ -33,53 +32,17 @@ section{
 
 h2 {
 	color: white;
+	font-family: Montserrat;
 	text-transform: capitalize;
 }
 
-
-.center-text {
-	background-color: white;
-	border-radius: 20px;
-	margin-top: 50px;
-	margin-bottom: 50px;
-	margin-left: 25%;
-	margin-right: 25%;
-	padding: 30px 40px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+a {
+	text-decoration: none !important;
 }
 
-h1 {
-	padding-bottom: 20px;
-}
-body {
-	background-image: url("https://blog.humanesociety.org/wp-content/uploads/2018/10/HORSES-WILD-ISTOCK-836461312_438049-1220x813.jpg");
-	height: 100%;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-#navbar {
-	height: 100px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
-	background-color: #482712;
-}
-
-#navbar * {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100%;
-	width: 33%;
-}
-
-h2 {
-	color: white;
-	text-transform: capitalize;
+a:hover {
+	background-color: orange;
+	transition: 0.5s;
 }
 
 a {
@@ -108,7 +71,6 @@ h1 {
 	padding-bottom: 20px;
 }
 
-/* form */
 .row {
 	display: -ms-flexbox; /* IE10 */
 	display: flex;

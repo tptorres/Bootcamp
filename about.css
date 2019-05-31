@@ -11,7 +11,7 @@ body {
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
-  background-color: #191919;
+	background-color: #191919;
 }
 
 #navbar * {
@@ -23,7 +23,7 @@ body {
 }
 
 h2 {
-  color: white;
+	color: white;
 	font-family: Montserrat;
 	text-transform: capitalize;
 }
@@ -37,32 +37,19 @@ a:hover {
 	transition: 0.5s;
 }
 
-.contact-form {
-  background-color: white;
-  border-radius: 20px;  
-  margin: 25px 25%;
-  padding: 50px;
-  display: flex;
-  flex-direction: column; 
-  justify-content: center; 
-  border: 10px solid rgba(0,0,0,0.1);
+.center-text {
+	background-color: white;
+	border-radius: 20px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding: 30px 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-.contact-form * {
-  width: 100%;
+h1 {
+	padding-bottom: 20px;
 }
-
-.contact-form h1, p {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-
